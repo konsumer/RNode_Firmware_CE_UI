@@ -1,6 +1,6 @@
 # RNode Firmware - Community Edition - UI
 
-> [!INFO]
+> [!NOTE]
 > This is a fork of [RNode_Firmware_CE](https://github.com/liberatedsystems/RNode_Firmware_CE), that will have a UI mode added. I will try to reuse as much as I can of the OLED and radio drivers, and include [reticulum-arduino](https://github.com/konsumer/reticulum-arduino). This will dual-mode, where it can either run as a regular RNode, or "client mode" where it acts as a basic client (send/receive messages, etc.) I'd also like to make a "bridge mode" device where it can connect to lora + wifi and bridge between the 2 (UDP/TCP/websocket.)
 
 This is the community maintained fork of the open firmware which powers RNode devices. It has been created to continue to expand development and support for more hardware devices, as the upstream repository is no longer accepting PRs for new hardware support. The original repository by Mark Qvist can be found [here](https://github.com/markqvist/RNode_Firmware).
